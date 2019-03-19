@@ -5,12 +5,6 @@ public class Planet {
     private int number;
     private String image;
 
-//    public Planet(String name, int number, String image) {
-//        this.name = name;
-//        this.number = number;
-//        this.image = image;
-//    }
-
     public String getName() {
         return name;
     }
