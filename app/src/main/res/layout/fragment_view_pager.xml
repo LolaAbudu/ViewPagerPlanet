@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/name_text_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="top|center"
         android:text="@string/hello_blank_fragment"
         android:textSize="@dimen/name_text_view_textSize"
@@ -20,7 +20,7 @@
     <TextView
         android:id="@+id/number_text_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/hello_blank_fragment"
         android:textSize="@dimen/number_text_view_textSize"
         app:layout_constraintBottom_toTopOf="@id/image_view"
@@ -30,7 +30,7 @@
     <ImageView
         android:id="@+id/image_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:text="@string/hello_blank_fragment"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/number_text_view" />
